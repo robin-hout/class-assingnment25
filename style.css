@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+img{
+    max-width: 100%;
+}
+
+.mid-content{
+    max-width: 900px;
+    margin: auto;
+}
+
+p,h1,h2,h3,h4,h5,h2 a{
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+/* 
+heder section */
+
+.header {
+    margin: 20px 0;
+  }
+
+.h-left{
+    width: 28%;
+}
+
+.logo{
+    width: 127px;
+}
+
+.h-right{
+    width: 68%;
+}
+
+.h-right ul{
+
+    list-style: none;
+}
+.h-right ul li{
+
+    display: inline-block;
+}
+.h-right ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 15px;
+    font-size: 20px;
+    font-family: Open Sans;
+    color: dimgrey;
+}
+.h-right ul li a:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+/* banner section */
+.banner{
+    background-image: url(./bg2.webp);
+    padding: 220px 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner p{
+    font-size: 28px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.banner h2{
+
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.btn{
+   
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    width: 220px;
+    margin: 0 11px;
+    
+
+    position: relative;
+    z-index: 1;
+}
+
+ .btn::before{
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: .5s;
+} 
+
+ .btn:hover::before{
+    background-color: rgb(10, 104, 180);
+    color: #fff ; 
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+} 
+/* service section */
+
+.service{
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    width: 32%;
+    box-shadow: 2px 5px 4px rgba(0,0,0,.2);
+    background-color: #fff;
+    margin-right: 12px;
+    padding: 15px 5px;
+    box-sizing: border-box;
+  }
+
+.s-version{
+
+}
+.s-version p {
+    padding: 10px 0;
+    font-size: 20px;
+}
+.s-dolar {
+    background-color: #f7f7f7;
+}
+.s-dolar h2 {
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 6px;
+    padding: 10px 0;
+}
+.s-dolar span {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.s-content {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.s-content p {
+    font-size: 20px;
+}
+.s-content span{
+
+}
+
+.s-menu{
+
+}
+.s-menu ul {
+    list-style: none;
+}
+.s-menu ul li {
+    clear: both;
+    padding: 10px 0;
+}
+.s-menu ul li span {
+    color: #e79332;
+    float: left;
+    width: 37px;
+    font-size: 22px;
+}
+
+.btn-div a {
+    text-transform: capitalize;
+    color: darkslateblue;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  .btn-div {
+    padding: 22px 8px;
+    box-shadow: 5px 5px 2px rgba(0,0,0,.1);
+    display: inline-block;
+    text-align: center;
+      width:150px;
+          
+    margin-left: 36px;
+    border-radius: 16px;
+  }
+  /* team member section */
+  .t-title{
+      padding: 30px 0;
+  }
+  .t-member{
+      width: 24%;
+      box-sizing: border-box;
+      border: double #f1c088;
+      margin-right: 9px;
+      padding: 10px;
+  }
+
+  .t-member h2{
+      font-weight: 400;
+  }
+
+  .team-member{
+      margin-bottom: 40px;
+  }
+  /* suscribe section */
+
+  .suscribe {
+    padding-bottom: 40px;
+}
+
+.s-section{
+    background-color: #f7f7f7;
+}
+.s-section h5{
+
+    font-weight: 200;
+    margin: 13px 0;
+    padding-top: 36px;
+}
+.s-section p{
+
+}
+.s-section input{
+
+    padding: 10px 43px;
+    margin-top: 20px;
+}
+.btn-div2{
+    
+    margin-top: 20px;
+}
+.btn1{
+    text-decoration: none;
+    background: #aa972c;
+    padding: 10px 44px;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+/* content section */
+.content{
+    padding: 45px 0;
+}
+
+.content h2{
+    padding: 25px 0;
+}
+
+.content-L{
+    width: 30%;
+}
+
+.content-L img{
+    height: 272px;
+}
+
+.content-R{
+    width: 68%;
+}
+.content-R h3 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+/* foter section */
+
+.f-b-item{
+    width: 33%;
+}
+
+.f-content{
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: ;
+}
